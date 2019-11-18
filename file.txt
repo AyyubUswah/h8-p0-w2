@@ -84,7 +84,6 @@ STORE "student" with 40
 IF "nail" is long
   SHOW "Punishment"
 ELSE 
-IF "nail" is short
   SHOW "Praise"
 END IF  
 
