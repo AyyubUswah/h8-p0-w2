@@ -69,6 +69,14 @@ ENDWHILE
 
 <--NO.4-->
 
+Dik:
+
+number of students = 40
+students whose have long nail = Punishment
+else or short nail = praise 
+
+<--pseudo code-->
+
 START
 
 STORE "student" with 40
