@@ -1,0 +1,67 @@
+<--NO.1-- >
+START 
+
+STORE "mass" with 600
+STORE "accelation" with 2
+
+CALCULATE "mass" times "acceleration"
+STORE "resultant force" to the result of calculation
+
+DISPLAY "resultant force" in " kg.m/s2"
+END
+
+<--No.2-->
+START
+
+STORE "years" with any value
+
+CALCULATE "years" mod 4
+CALCULATE "years" mod 100
+CALCULATE "years" mod 400
+
+STORE "remainder" to the result of calculation
+
+IF "remainder" of mod 100 not equal 0 but "remainder" of mod 4 equal 0
+  DISPLAY "kabisat year"
+IF "remainder" of mod 4, 100, 400 equal 0
+  DISPLAY "kabisat year"
+ELSE
+  DISPLAY "Not kabisat year" 
+ENDIF
+
+<--No.3-->
+START 
+
+STORE "load" with 0
+
+WHILE "load" < 20
+  INCREMENT "load" by 1
+
+DISPLAY "START"
+ENDWHILE
+
+
+<--NO.4-->
+
+START
+
+STORE "student" with 40
+
+IF "nail" is long
+  SHOW "Punishment"
+ELSE 
+IF "nail" is short
+  SHOW "Praise"
+END IF  
+
+  
+
+
+
+
+  
+
+
+ 
+ 
+
